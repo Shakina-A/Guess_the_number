@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    padding: 200px;
+    background-image: url("https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg?semt=ais_items_boosted&w=740"); 
+    background-size: cover;        
+    background-repeat: no-repeat;   
+    background-position: center;    
+}
+
+p{
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+#number{
+    width: 150px;
+    height: 40px;
+    font-size:medium;
+    padding: 0px 10px;
+}
+
+#button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: rgb(245, 221, 255);
+    color: rgb(0, 0, 0);
+}
+
+#message{
+    font-size: 1.5em;
+    background-color: dodgerblue;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+
+#lives-text{
+    color: red;
+}
+
+#lose,#win{
+    text-align: center;
+    padding: 200px;   
+}
+
+body.win{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK4HwvfVhkd7OIF4GTLXrl_qmOVbBNgLtAzg&s");
+}
+body.lose{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5eO7yfowRVOZ2piEYtO-7l1QkdnUgRaVqg&s");
+    color: red;
+}
