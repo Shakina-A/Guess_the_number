@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     text-align: center;
     padding: 100px;
@@ -52,4 +57,28 @@ body.win{
 body.lose{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5eO7yfowRVOZ2piEYtO-7l1QkdnUgRaVqg&s");
     color: red;
+}
+
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  padding: 5vw;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #number, #button {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    word-break: break-word;
+  }
+
+  #lives-text {
+    font-size: 1.2em;
+  }
 }
